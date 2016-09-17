@@ -1,0 +1,77 @@
+@import 'https://fonts.googleapis.com/css?family=Roboto+Slab';
+
+
+body {
+background: #7b4397; /* fallback for old browsers */
+background: -webkit-linear-gradient(to left, #7b4397 , #dc2430); /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to left, #7b4397 , #dc2430); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+h1 {
+font-family: 'Roboto Slab', serif;
+font-weight: 100;
+font-size: 40px;
+letter-spacing: -1px;
+color: whitesmoke;
+text-align: center;
+}
+
+p {
+font-family: 'Roboto Slab', serif;
+font-weight: 100;
+font-size: 30px;
+letter-spacing: 2px;
+color: whitesmoke;
+text-align: center;
+}
+
+.container {
+text-align: center;
+}
+
+input[type=text] {
+    display: inline-block;
+    background: transparent;
+    /* border: 1px solid whitesmoke; */
+    border:0;
+    padding: 0.5em 0 0.5em 10px;
+    color: whitesmoke;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 100;
+    font-size: 60px;
+    text-align: center;
+}
+
+input[type=submit], input[type=button], button {
+    background: transparent;
+    border: 0;
+    padding: 0.5em 20px 0.5em 20px;
+    color: whitesmoke;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 100;
+    font-size: 30px;
+    border-radius: 16px;
+    outline: none;
+}
+
+/*
+.backgroundOne {
+background: #1abc9c;
+}
+
+.backgroundTwo {
+background: #2ecc71;
+}
+
+.backgroundThree {
+background: #3498db;
+}
+
+.backgroundFour {
+background: #9b59b6;
+}
+
+.backgroundFive {
+background: #e74c3c;
+}
+*/
